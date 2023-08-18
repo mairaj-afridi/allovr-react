@@ -1,0 +1,156 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+background-color:black;
+
+}
+
+/* .beg-col{
+     background: radial-gradient(63.65% 34.62% at 100.00% 47.50%, #ED1E79 0%, rgba(237, 30, 121, 0.00) 100%)>
+
+} */
+.bg-img{
+    background: radial-gradient(40.46% 35.08% at 32.16% 22.99%, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    mix-blend-mode: soft-light;
+    
+
+}
+.bg-pin{
+    background: radial-gradient(63.65% 34.62% at 100.00% 47.50%, #ED1E79 0%, rgba(237, 30, 121, 0.00) 100%);
+}
+.bg-pin1{
+background: radial-gradient(43.97% 32.61% at 52.40% 0.00%, rgba(237, 30, 121, 0.65) 0%, rgba(237, 30, 121, 0.40) 41.49%, rgba(237, 30, 121, 0.00) 100%), #040404;
+}
+
+
+.first-yell{
+    background: linear-gradient(1turn,#fbb03b,rgba(251,176,59,0));
+    
+        clip-path: polygon(6% 0, 94% 0, 99% 100%, 1% 100%);
+    
+}
+.second-yell{
+    border-radius: 1.5rem;
+background: var(--yellow, #FBB03B);
+
+}
+.btn-action1{
+    border-radius: 4rem;
+    
+background: var(--dark, #000000);
+}
+.btn-action2{
+border-radius: 4rem;
+border: 2px solid var(--dark, #000000);
+}
+.btn-pin1{
+    border-radius: 4rem;
+background: var(--red, #ED1E79);
+}
+.btn-pin3{
+border: 1px solid var(--white, #FFF);
+border-radius: 4rem;
+background: var(--red, #ED1E79);
+
+}
+.btn-pin4{
+    border-radius: 4rem;
+    border: 1px solid var(--white, #FFF);
+    /* background: var(--red, #1eed28); */
+    
+    }
+
+    .fourty-three{
+        border-radius: 1rem;
+background: #111112;
+    }
+    .btn-pin-stakingpool{
+        border-radius: 4rem;
+background: var(--red, #ED1E79);
+    }
+    .btn-last-stakingpool{
+    border-radius: 4rem;
+border: 1px solid var(--white, #FFF);
+    }
+
+
+
+
+
+
+
+    /* hambuger */
+    .hamburger-menu {
+        position: relative;
+        width: 300px;
+        height: 300px;
+      }
+      
+      .hamburger-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+      }
+      
+      .bar {
+        width: 100%;
+        height: 3px;
+        background-color: #333;
+      }
+      
+      .menu-items {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 40px;
+        left: 10px;
+        background-color: white;
+        list-style: none;
+        padding: 10px;
+        border: 1px solid #333;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      
+      .hamburger-menu.open .menu-items {
+        display: flex;
+        
+      }
+      .drawer{
+        width: 100% !important;  
+         
+    background-color: black !important;
+    }
+
+        @media screen and (min-width: 580px) {
+            .drawer{
+                width: 75% !important;
+            }
+          }
+            .stake-avor{
+            border-radius: 1rem;
+background: #070707;
+          }
+.stakeavor-with{
+          border-radius: 0.5rem;
+background: #252525;
+}
+.btn-stakeavot{
+    border-radius: 4rem;
+background: var(--gradient, linear-gradient(90deg, #ED1E79 0%, #FBB03B 100%));
+}
+
+
+.icon-pink{
+border-radius: 1rem;
+background: #070707;
+}
